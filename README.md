@@ -9,6 +9,6 @@
   <li><Strong>subirArchivo.php</Strong>.- Subir archivo en el mismo directorio</li>
   <li><Strong>subirArchivoCarpeta.php</Strong>.- Subir un archivo a una carpeta creada. </li>
   <li><Strong>leer_json_decode.php</Strong>.- Decodifica un string de JSON. </li>
-  <li><Strong>leer_json_encode.php</Strong>.- Retorna la representación JSON del valor dado. </li>
+  <li><Strong>json_encode.php</Strong>.- Retorna la representación JSON del valor dado. </li>
   <li><Strong>leer_datos_api.php</Strong>.- Muestra los datos de una api en una tabla. </li>
 </ul>
