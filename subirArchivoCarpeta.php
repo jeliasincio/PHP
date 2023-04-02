@@ -1,10 +1,11 @@
 <?php
     if($_POST){
         //print_r($_POST);
-        print_r($_FILES['archivo']);
+        //print_r($_FILES['archivo']);
+        $ruta = "archivos/";
         $origen_archivo = $_FILES['archivo']['tmp_name'];
         $destino_archivo = $_FILES['archivo']['name'];
-        move_uploaded_file($origen_archivo,$destino_archivo);
+        move_uploaded_file($origen_archivo,$ruta.$destino_archivo);
     }
 ?>
 <!DOCTYPE html>
@@ -19,7 +20,7 @@
     <form action="#" enctype="multipart/form-data" method="post">
        <div><input type="file" name="archivo" id=""></div>
        <div>&nbsp;</div>
-       <div><input type="submit" name="enviar" value="Enviar Información"></div>
+       <div><input type="submit" name="enviar" value="Guardar"></div>
     </form>
 </body>
 </html>
