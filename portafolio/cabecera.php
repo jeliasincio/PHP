@@ -1,3 +1,10 @@
+<?php
+    session_start();    
+    if(isset($_SESSION["usuario"])!="lobaton"){        
+        header("location:login.php");
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="es>
 

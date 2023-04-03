@@ -1,6 +1,8 @@
 <?php
+    session_start();
     if($_POST){
-        if($_POST['usuario'] =='Lobaton' && $_POST['contrasenia'] == '12345678'){
+        if(($_POST['usuario'] == "lobaton") && ($_POST['contrasenia'] == "12345")){
+            $_SESSION['usuario'] = "lobaton";
             header('location:index.php');
         }else{ 
             echo "<script>alert('Usuario o contraseña incorrecto.');</script>";            
