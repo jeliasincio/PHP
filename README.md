@@ -11,4 +11,6 @@
   <li><Strong>leer_json_decode.php</Strong>.- Decodifica un string de JSON. </li>
   <li><Strong>json_encode.php</Strong>.- Retorna la representación JSON del valor dado. </li>
   <li><Strong>leer_datos_api.php</Strong>.- Muestra los datos de una api en una tabla. </li>
+  <li><Strong>leer_archivo_txt.php</Strong>.- Lee un archivo que se encuentra en la carpeta archivos "archivos/archivo.txt" y muestra su contenido. </li>
+  <li><Strong>crear_archivo_txt.php</Strong>.- Crea un archivo con el nombre archivo2.txt con contenido y lo guarda en la carpeta archivos "archivos/archivo2.txt". </li>
 </ul>
