@@ -1,5 +1,5 @@
 <?php
-$directorioArchivo = "archivos/archivo2.txt";
+$directorioArchivo = "../archivos/archivo3.txt";
 $contenido = "Hola mundo, saludos desde Perú";
 $archivoACrear = fopen($directorioArchivo,"w");
 

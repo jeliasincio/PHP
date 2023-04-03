@@ -2,7 +2,7 @@
     if($_POST){
         //print_r($_POST);
         //print_r($_FILES['archivo']);
-        $ruta = "archivos/";
+        $ruta = "../archivos/";
         $origen_archivo = $_FILES['archivo']['tmp_name'];
         $destino_archivo = $_FILES['archivo']['name'];
         move_uploaded_file($origen_archivo,$ruta.$destino_archivo);
