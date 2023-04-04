@@ -17,8 +17,13 @@ class conexion{
 
     public function ejecutar($sql){
         $this->conexion->exec($sql);
-        return $this->conexion->lastInsertId();
+        return $this->conexion->lastInsertId();// lastInsertId ==>Devuelve el ID de la última fila insertada o valor de secuencia
+    }
 
+    public function consultar($sql){
+        $sentencia = $this->conexion->prepare($sql);
+        $sentencia->execute();
+        return $sentencia->fetchAll();
     }
 }
 

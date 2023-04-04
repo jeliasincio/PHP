@@ -1,8 +1,8 @@
 <?php
-    session_start();    
-    if(isset($_SESSION["usuario"])!="lobaton"){        
-        header("location:login.php");
-    }
+session_start();
+if (isset($_SESSION["usuario"]) != "lobaton") {
+    header("location:login.php");
+}
 ?>
 
 <!DOCTYPE html>
@@ -17,8 +17,25 @@
 </head>
 
 <body>
-    <div class="container">
-        <a href="index.php">Index</a>
-        <a href="portafolio.php">Portafolio</a>
-        <a href="cerrar.php">Cerrar</a>
-        <br />
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand" href="#">CRUD</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.php">Index</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portafolio.php">Portafolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cerrar.php">Cerrar</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
