@@ -36,6 +36,7 @@ $resultados = $objConexion->consultar("SELECT * FROM `proyectos`");
       </div>
     <?php } ?>
   </div>
+  <br/>
 </div>
 
 
