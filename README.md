@@ -9,5 +9,5 @@
 </div>
 <div>
     <h3>PÁGINA portafolio.php</h3>
-    <img src="portafolio/img/portafolio.jpg" alt="Mi portafolio">
+    <img src="portafolio/img/portafolio.pagina.jpg" alt="Mi portafolio">
 </div>
