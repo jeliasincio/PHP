@@ -45,12 +45,12 @@
                 </div>
                 <div class="card-body">
                     <form action="portafolio.php" enctype="multipart/form-data" method="post">
-                        Nombre del proyecto: <input class="form-control" type="text" name="nombre" id="">
+                        Nombre del proyecto: <input class="form-control" type="text" name="nombre" required>
                         <br />
-                        Imagen del proyecto: <input class="form-control" type="file" name="archivo" id="">
+                        Imagen del proyecto: <input class="form-control" type="file" name="archivo" required>
                         <br />
                         Descripción:
-                        <textarea class="form-control" name="descripcion" cols="30" rows="5"> </textarea>
+                        <textarea class="form-control" name="descripcion" cols="30" rows="5" required> </textarea>
                         <br />
                         <input class="btn btn-success" type="submit" value="Grabar">
                     </form>
